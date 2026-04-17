@@ -1,0 +1,166 @@
+/* Styles.css */
+
+/* Imported font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Base Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #51586c;
+    color: #333;
+    padding: 1.25em;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.site-header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+.site-header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color:  #4a3d64;
+}
+
+.site-header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #7b6f99;
+    margin-top: .25em;
+}
+/* Navbar Styling */
+nav.navbar {
+    margin-bottom: 2em;
+    background-color: #fff !important;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #4a3d64 !important;
+    font-weight: 700;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #787598;
+}
+/*Figure styling*/
+figure.figure {
+    margin: 2em auto;
+    padding: 1.5rem;
+    background-color: hsl(210, 17%, 98%);
+    border-radius: 10px;
+    max-width: 359px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+figure.figure img {
+    border-radius: 8px;
+}
+.figure-caption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+/* Text/Paragraph Styling */
+p.lh-base {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 6px;
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+    margin-right: 35em;
+}
+/* Projects Page Specific Styling */
+.projects-page p.lh-base {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    font-size: 1.5em;
+}
+/* Home Page Specific Styling */
+.home-page main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.home-page p.lh-base {
+    flex: 1 1 400px;
+    margin: 0;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 6px;
+    font-size: 1.82em;
+}
+.home-page figure.figure {
+    flex: 0 0 300px;
+    margin: 0;
+}
+/* List Group Styling */
+ul.list-group {
+    max-width: 1000px;
+    margin: 0 auto 2em auto;
+    padding: 0;
+    list-style: none;
+    
+}
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px !important;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.list-group-item p.lh-base {
+    margin: 0 auto 2em auto; /* center */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);
+    font-size: medium;
+}
+.list-group-item img {
+    max-width: 100%;
+    border-radius: 8px
+}
+.list-group-item figure {
+    max-width: 700px;
+    margin: 0 auto 2em auto; /* center */
+    text-align: center;
+}
+.list-group-item figure strong {
+    font-weight: bold;
+}
+/* Footer Styling */
+.custom-footer {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+.custom-footer p {
+    margin: 0;
+    font-size: 1em;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-page main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-page figure.figure, .home-page p.lh-base {
+        flex: 1 1 100%;
+    }
+    .list-group-item {
+        padding: 1em;
+    }
+}
+/* End of Styles.css */
+/* Finished by Daniel Mould - November 2025 (Validated) */

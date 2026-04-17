@@ -1,0 +1,133 @@
+/* Styles.css */
+/* Basic styling for the form page */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 2;
+    padding: 40px;
+}
+
+/* Header style */
+header, footer {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(45, 58, 77);
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header h2 {
+    font-size: 1.2em;
+    color: #444;
+}
+/* image and Figure styles  */
+img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 160px;             
+  height: auto;             
+  border-radius: 8px;       
+}
+figcaption {
+    text-align: center;
+    font-size: 0.85em;
+  color: #555;
+  margin-top: 6px;
+}
+/* table styling */
+table {
+    margin: 16px auto 30px 140px;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+caption {
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: 600;
+  background-color: #f8f9fb;
+}
+thead th {
+    background: #e8ecf5;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #1f2d4a;
+    border-bottom: 1px solid #ccc;;
+}
+tbody th{
+    text-align: left;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #1f2d4a;
+    border-bottom: 1px solid #ccc;
+    
+}
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-left: #1f2d4a 1px solid;
+    border-right: #1f2d4a 1px solid;
+    border-top: #1f2d4a 1px solid;
+}
+/* Work highlighted in Light Green */
+td[data-event="work"] {
+  background: hsla(143, 80%, 75%, 0.4);
+  font-weight: 500;
+  color: #0f2342;
+}
+/* Test highlighted in St. Clair Green */
+td[data-event="test"] {
+  background: #00693C;
+  font-weight: 600;
+  color: #fff;
+}
+/* Dentist appointment */
+td[data-event="dentist"] {
+  background: rgba(229, 229, 229, 0.6);
+  color: #2a3d4c;
+}
+/* Outing highlighted */
+td[data-event="outing"] {
+  background: hsla(78, 100%, 65%, 0.4);
+  font-weight: 500;
+  color: #0f2342;
+}
+tr td {
+    text-align: center;
+}
+/* List styling */
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+}
+ul li {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0 25px;
+}
+/* main and h3 styling */
+main, h3 {
+    text-align: center;
+}
+/*Footer styles*/
+footer p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
+/* End of Styles.css */

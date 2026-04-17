@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Daniel Mould -->
+<!-- Web 110 - Assignment 6 - Form -->
+<!--Date Started: 2025/10/26 -->
+<!--Student #: 0886132 -->
+<body>
+    <header>
+        <h1>FORM</h1>
+        <h2>Please fill out the form below</h2>
+    </header>
+    <!--Image-->
+    <img src="img/stClair.jpg" alt="St. Clair College Campus">
+    <!--Main Content-->
+        <main>
+            <form action="#" method="post">
+                <!-- Form 1 -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name: <input type="text" name="firstName" required></label>
+                    <label>Last Name: <input type="text" name="lastName" required></label>
+                    <label>Email: <input type="email" name="email" required></label>
+                    <label>Date of Birth: <input type="date" name="dateOfBirth"></label>
+                    <label>Street Address: <input type="text" name="address"></label>
+                    <label>City: <input type="text" name="city"></label>
+                    <label>Province: <input type="text" name="province"></label>
+                    <label>Postal Code: <input type="text" name="postalCode"></label>
+                    <label>Phone Number: <input type="tel" name="phoneNumber"></label>
+                </fieldset>
+                <!-- Form 2 -->
+                <fieldset>
+                    <legend>Course</legend>
+                    <label><input type="radio" name="Course" value="python">Advanced Python - ITCC 353</label>
+                    <label><input type="radio" name="Course" value="java">Java Advanced - ITCC 118</label>
+                    <label><input type="radio" name="Course" value="cloud">Fundamentals of Cloud Computing - ITCC  630</label>
+                    <label><input type="radio" name="Course" value="js">Introduction to Project JavaScript - ITCC 138</label>
+                    <label><input type="radio" name="Course" value="c">Programming in C - ITCC 229</label>
+                    <label><input type="radio" name="Course" value="web">Web Design for Mobile Applications - ITCC 182</label>
+                </fieldset>
+                <!-- Form 3 -->
+                <fieldset>
+                    <legend>Course Timing</legend>
+                    <label><input type="checkbox" name="timing" value="morning">Morning</label>
+                    <label><input type="checkbox" name="timing" value="afternoon">Afternoon</label>
+                    <label><input type="checkbox" name="timing" value="evening">Evening</label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2025 <a href="mailto:w0886132@myscc.ca">Daniel Mould</a></p>
+            <p>Image Credits:</p>
+            <ul>
+                <li>Campus photo by <a href="https://www.highereducationdigest.com/st-clair-college-offering-the-best-of-both-worlds-in-every-aspect/">Higher Education</a></li>
+            </ul>
+        </footer>
+</body>
+</html>
