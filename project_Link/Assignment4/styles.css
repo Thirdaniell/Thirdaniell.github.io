@@ -1,0 +1,92 @@
+/* styles.css */
+/* HTML styles*/
+html {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-size: 16px;
+    color: #333333;
+}
+/* Body styles */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5 rem;
+    background-color: #f0f0f0;
+    line-height: 1.5;
+}
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: rgba(128, 128, 128);
+}
+/* Main content styles */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+main section {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+/* Column 1 */
+main section:nth-child(1) figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+/* Column 2 */
+main section:nth-child(2) h2 {
+    margin-bottom: 0.5rem;
+}
+/* Column 3 */
+main section:nth-child(3) ol {
+    padding-left: 1.25rem;
+}
+main section:nth-child(3) li {
+    margin-bottom: 1rem;
+}
+main section:nth-child(3) figure {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin: .5rem;
+}
+main section:nth-child(3) figure img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+main section:nth-child(3) figcaption {
+    margin: 0 0 0.75rem 0;
+}
+/*figcaption styles*/
+figcaption a {
+    text-decoration: underline;
+}
+figcaption a:hover {
+    color: #007BFF;
+    text-decoration: none;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1rem;
+    color: #6c757d;
+}

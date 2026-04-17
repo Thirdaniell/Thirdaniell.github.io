@@ -1,0 +1,80 @@
+h1 {
+    font-family: Times New Roman, serif;
+    text-align: center;
+    font-size: 65px;
+    color: #1f2040
+}
+h1::before {
+    content: "★ "; color: gold;
+}
+h1::after {
+    content: " ✨"; 
+}
+h2::first-line {
+    background-color: lightyellow;
+}
+h3 {
+    text-align: center;
+    font-size: 150%;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px;
+    color: #333333;
+}
+ul li:first-child {
+    font-weight: bold;
+    color: darkblue;
+    font-size: large;
+    margin-bottom: 5px;
+}
+ul li{
+    list-style-type: square;
+    color: rgb(50, 100, 200);
+    margin-bottom: 10px;
+}
+ol li:nth-child(1) {
+    font-weight: bold;
+    color: darkred;
+    font-size: large;
+    margin-bottom: 5px;
+}
+ol li:nth-child(2) {
+    color: green;
+    font-style: italic;
+    font-size: large;
+}
+ol li:nth-child(3) {
+    color: green;
+    font-style: italic;
+    font-size: large;
+}
+ol li:nth-child(4) {
+    color: green;
+    font-style: italic;
+    font-size: large;
+}
+ol li:nth-child(5) {
+    color: green;
+    font-style: italic;
+    font-size: large;
+}    
+p::first-letter {
+    font-style: italic;
+    font-size: 150%;
+    color:lightslategray;
+    font-weight: bold;
+}
+img { 
+    text-align: center;   
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: auto;
+}
+html {
+    background-color: #f0f8ff;
+    margin: 20px;
+    padding: 20px;
+}
