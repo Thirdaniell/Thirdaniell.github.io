@@ -1,0 +1,152 @@
+/* Video Styling */
+video {
+    width: 100%;
+    max-width: 900px;
+    display: block;        
+    margin: 20px auto;      
+    border: 1px solid #000;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 18px auto;      
+    table-layout: fixed;
+}
+/* caption styling */
+table caption {
+    font-size: 1.5em;
+    margin: 10px;
+    letter-spacing: 2.5px
+}
+
+/* All cells */
+
+table th {
+    font-family:'Road Rage', cursive;
+    font-size: 3rem !important;
+    font-weight: normal;
+    background-color: white;
+    padding: 2.5px 5px 1px 5px !important;
+}
+
+table th, table td {
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 7px 7px 7px;
+    font-size: 1.1em;
+}
+
+table tbody tr:nth-child(4) td:first-child {
+    background-color: #ffffff;
+    font-weight: normal;
+}
+
+table tbody tr:nth-child(4) td {
+    background-color: #dcdcdc;
+    font-weight: bold;
+}
+/* Form  Styling */
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+form {
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+label input[type="email"] {
+    width: 70%;
+    margin-left: 30px;
+}
+label input[type="radio"] { 
+    display: inline-block;
+    margin-right: 5px;
+}
+label:nth-of-type(3),
+label:nth-of-type(4) {
+    display: inline-block;
+    margin-right: 15px;
+}
+input[type="submit"] {
+    display: block;
+    margin-top: 6px;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 4px;
+    cursor: pointer;
+}
+article img {
+    transition: transform 2s ease;
+}
+article:nth-of-type(1) img:hover {
+    transform: rotate(40deg);
+}
+article:nth-of-type(3) img:hover {
+    transform: rotate(-40deg);
+}
+
+/* Responsive Design */
+@media (max-width: 670px) {
+    table th {
+        font-size: 2rem;
+    }
+
+    label input[type="email"] {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* Small Screen Design */
+@media (max-width: 550px) {
+    table th {
+        font-size: 1.5rem;
+    }
+
+    table td, table th {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+
+    article {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    article img {
+        width: 80px;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    video {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+}
+
+/* End of File */

@@ -1,0 +1,37 @@
+/* CSS Reset File */
+/*getting rid of browser inconsistencies*/
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Remove default list styles. */
+ul, ol {
+    list-style: none;
+}
+/* Remove default link styles. */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Set default body styles. */
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #000000;
+}
+/* Remove default image styles. */
+img {
+    border: 0;
+    max-width: 100%;
+    display: block;
+}
+/* Remove default heading styles. */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
